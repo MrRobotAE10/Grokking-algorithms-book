@@ -16,3 +16,4 @@ def binary_Search(arr, item):
 array = [1,2,3,4,8,10,13,15,17,18,22]
 
 print(binary_Search(array, 18))
+print(binary_Search(array, 0))

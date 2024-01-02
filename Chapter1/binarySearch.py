@@ -1,4 +1,5 @@
-# The functiosn takes an ordered array and the item to find
+# The functiosn takes an ordered array and the item to find\
+# The running time is logarithmic time O(log n)
 def binary_Search(arr, item):
     low = 0
     high = len(arr) - 1

@@ -2,6 +2,7 @@
 # Running time O(n^2)
 
 def findSmallest(array):
+    print(array)
     smallestNumber = array[0] # Stores the smallest number
     smallestIndex = 0 # Stores the smallest number index
     for i in range(1, len(array)):
@@ -14,7 +15,7 @@ def selectionSort(array):
     sortedArray = []
     for i in range(len(array)):
         smallest = findSmallest(array)
-        sortedArray.append(array.pop(smallest))
+        sortedArray.append(array.pop(smallest)) # Append: appends to the end of the list, pop: pops that value from the array and returns it
     return sortedArray
 
 print(selectionSort([20, 1, 3, 12, 5, 4]))

@@ -1,3 +1,4 @@
+# Run time: Worst Case O(n^2), Average Case O(n log n)
 def quicksort(arr):
     if len(arr) < 2:
         return arr

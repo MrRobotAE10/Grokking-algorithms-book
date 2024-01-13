@@ -19,12 +19,19 @@ graph["jonny"] = []
 search_queue = deque() # Creates a queue
 search_queue += graph["you"] # Add all my neighbors to the queue
 
-while search_queue:
-    person = search_queue.popleft()
-    if is_person_seller(person):
-        print(f"{person} is a mango seller!")
-        break 
-    else:
-        search_queue += graph[person]
-else:
-    print("No mango seller was found")
+def search(name):
+    search_queue = deque()
+    search_queue += graph[name]
+    searched = []
+    while search_queue:
+        person = search_queue.popleft()
+        if not person in searched:
+            if is_person_seller(person):
+                print(f"{person} is a mango seller!")
+                return True
+            else:
+                search_queue += graph[person]
+                searched.append(person)
+    return False
+
+search("you")

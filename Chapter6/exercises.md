@@ -64,3 +64,7 @@ because I can shower before I brush my teeth. From this graph, you can make a li
       5 Brush Teeth\
       6 Get Dressed\
       7 Eat breakfast
+
+5. Which graphs are also trees?
+
+    > Those whose bottom edges does not point back up

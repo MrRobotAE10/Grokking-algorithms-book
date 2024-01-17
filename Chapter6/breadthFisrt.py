@@ -2,6 +2,10 @@
 # Answers two type of questions
 # 1. Is there a path from Node A to Node B
 # 2. What's the shortest path from node A to node B
+
+# O(number of people + number of edges)
+# Running Time: O(V number of vertices + E number of edges)
+
 from collections import deque
 
 def is_person_seller(name):

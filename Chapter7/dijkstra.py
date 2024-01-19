@@ -12,3 +12,16 @@ graph["b"]["a"] = 3
 graph["b"]["fin"] = 5
 
 graph["fin"] = {}
+
+infinity = float("inf")
+costs = {}
+costs["a"] = 6
+costs["b"] = 2
+costs["fin"] = infinity
+
+parents = {}
+parents["a"] = "start"
+parents["b"] = "start"
+parents["fin"] = None
+
+processed = []

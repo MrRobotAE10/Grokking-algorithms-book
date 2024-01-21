@@ -4,4 +4,4 @@
 
     > B. 60
 
-    > C. Because of the negative weight it ain't possiblew
+    > C. Because of the negative weight it ain't possible

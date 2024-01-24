@@ -9,3 +9,17 @@ and estimate how long it takes. How can you maximize the point total (seeing all
 stay? Come up with a greedy strategy. Will that give you the optimal solution?
 
     >   Go and see what I want to see the most. It doesn't give the optimal solution
+
+For each of these algorithms, say whether it’s a greedy algorithm or not.
+
+3. Quicksort
+
+    > no
+
+4. Breadth-first search
+
+    > yes
+
+5. Dijkstra’s algorithm
+
+    > yes

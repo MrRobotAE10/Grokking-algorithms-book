@@ -26,7 +26,13 @@ For each of these algorithms, say whether it’s a greedy algorithm or not.
 
 6. A postman needs to deliver to 20 homes. He needs to find the shortest route that goes to all 20 homes. Is this an NP-complete problem?
 
+    > yes
+
 7. Finding the largest clique in a set of people (a clique is a set of people who all know each other). Is this an NP-complete problem?
+
+    > yes
 
 8. You’re making a map of the USA, and you need to color adjacent states with different colors. You have to find the minimum number of colors you need so that 
 no two adjacent states are the same color. Is this an NP-complete problem?
+
+    > yes

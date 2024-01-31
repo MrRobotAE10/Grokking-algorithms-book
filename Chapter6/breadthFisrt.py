@@ -20,12 +20,8 @@ graph["peggy"] = []
 graph["tom"] = []
 graph["jonny"] = []
 
-search_queue = deque() # Creates a queue
-search_queue += graph["you"] # Add all my neighbors to the queue
-
 def search(name):
-    search_queue = deque()
-    search_queue += graph[name]
+    search_queue = deque(graph["you"]) # Creates a queue, add all my neighbors to the queue
     searched = []
     while search_queue:
         person = search_queue.popleft()

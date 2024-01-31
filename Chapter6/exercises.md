@@ -65,6 +65,9 @@ because I can shower before I brush my teeth. From this graph, you can make a li
       6 Get Dressed\
       7 Eat breakfast
 
+(If task A depends on Task B, task A shows latter in the list, i.e Topological Sort)\
+(Trees: Special type of graphs where no edges ever point back)
+
 5. Which graphs are also trees?
 
     > Those whose bottom edges does not point back up

@@ -1,3 +1,10 @@
+# Finds the path with the smallest weight
+
+# Steps:
+# 1. Find the cheapest node
+# 2. Update the costs of the neighbors of this node
+# 3. Repeat until you've done this for every node
+# 4. Calculate the final path
 graph = {}
 graph["you"] = ["alice", "bob", "claire"]
 

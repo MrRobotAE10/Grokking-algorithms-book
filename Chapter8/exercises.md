@@ -8,7 +8,7 @@ space? Come up with a greedy strategy. Will that give you the optimal solution?
 and estimate how long it takes. How can you maximize the point total (seeing all the things you really want to see) during your
 stay? Come up with a greedy strategy. Will that give you the optimal solution?
 
-    >   Go and see what I want to see the most. It doesn't give the optimal solution
+    >   Go and see what I want to see the most in the remaining time. It doesn't give the optimal solution
 
 For each of these algorithms, say whether it’s a greedy algorithm or not.
 
